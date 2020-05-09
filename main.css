@@ -276,7 +276,9 @@ body {
 
   .facilities {
     text-align: center;
-    background-color: #325A8E;
+    /* background-color: #325A8E; */
+    padding-top: 10vh;
+    
   }
 
   .myCarousel {
@@ -298,6 +300,11 @@ body {
 
     .facilities div {
     float:left;
+    }
+
+    .facilities ul{
+      align-items: center;
+      padding: 4vh 10vw;
     }
 
     #column1{ 
