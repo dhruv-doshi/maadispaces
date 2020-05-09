@@ -6,24 +6,24 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: rgba(247, 219, 122, 0.2) !important;
+  background-color: rgba(247, 219, 122, 0.1) !important;
 }
 
 .container{
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 
 .container > div{
-  width: 15vw;
-  height: 15vw;
-  margin: 4vw;
+  width: 24vw;
+  height: 24vw;
+  margin: 1vw;
   padding: 0;
   background-color: white;
-  border-radius: 6.66%;
+  border-radius: 2%;
   overflow: hidden;
 }
 
@@ -38,11 +38,11 @@ body {
   top: -4vw;
   left: 0vw;
   color: black;
-  width: 15vw;
-  height: 2vw;
+  width: 24vw;
+  height: 2.5vw;
   text-align: center;
   opacity: 0.9;
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   transition: all 0.3s ease-in-out ;
 }
 
@@ -57,7 +57,7 @@ body {
   top: 17vw;
   left: 0vw;
   color: black;
-  width: 15vw;
+  width: 24vw;
   height: 2vw;
   text-align: center;
   opacity: 0.9;
@@ -77,8 +77,8 @@ body {
 }
 
 .image{
-  max-width: 15vw;
-  max-height: 15vw;
+  max-width: 24vw;
+  max-height: 24vw;
   transition: all 0.5s ease-out ;
 }
 
@@ -200,10 +200,11 @@ body {
     padding-right: 0;
     margin-right: 0;
     float: right;
-    border-bottom: 2px;
+    /* border-bottom: 2px;
     border-bottom-style: solid;
-    border-color: black;
-  }
+    border-color: black; */
+    width: 100vw;
+    }
   
   a {
     color: #000000 !important;
@@ -213,12 +214,22 @@ body {
   
   /* Navbar links */
   #navbar a {
-    float: left;
+    float: right;
     display: block;
     color: #000000 !important;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+  }
+
+  #navbar p {
+    float: left;
+    display: block;
+    color: #000000 !important;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
   }
   
   /* Page content */
@@ -227,7 +238,7 @@ body {
   }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
+  /* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -240,26 +251,27 @@ body {
     }
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */ */
+   /* .sticky + .content {
     padding-top: 60px;
-  }
+  }  */
   div {
       width: 100%;
   }
 
   .about {
     background-color: #325A8E;
-    padding: 20vh 0;
+    padding: 15vh 0;
     text-align: center;
   }
 
   .about p {
-    padding: 2vw 15vw;
+    padding: 1vw 15vw;
   }
 
   .gallery {
     text-align: center;
+    padding-top: 15vw;
   }
 
   .facilities {
@@ -269,12 +281,12 @@ body {
 
   .myCarousel {
     width: 100vw;
-    padding: 100px 5vw 100px;
+    padding: 10px 15vw 100px;
     margin: 0;
     overflow: hidden;
   }
 
-  img {
+  .myCarouse img {
     width: 100%;
   }
 
@@ -305,3 +317,7 @@ body {
       margin: 0;
       border: 0;
     }
+
+.location {
+  padding-top: 25vw;
+}
