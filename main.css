@@ -220,6 +220,7 @@ body {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   }
 
   #navbar p {
@@ -263,22 +264,37 @@ body {
     background-color: #325A8E;
     padding: 15vh 0;
     text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   }
 
   .about p {
     padding: 1vw 15vw;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   }
 
   .gallery {
     text-align: center;
     padding-top: 15vw;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   }
 
   .facilities {
     text-align: center;
     /* background-color: #325A8E; */
     padding-top: 10vh;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     
+  }
+
+#location{
+  padding-top: 10vh;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+
+}
+
+  #contactus {
+    padding-top: 10vh;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
   }
 
   .myCarousel {
